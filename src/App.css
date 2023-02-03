@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+main{
+    font-family: 'Poppins', sans-serif;
+    background-color: #32322C;
+}

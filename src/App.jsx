@@ -80,7 +80,7 @@ function App() {
             {/*Cards-1*/}
             <div className="text-center overflow-hidden shadow-gray-900 shadow-2xl justify-center p-10 my-10 rounded-md h-fit">
               <div className="flex justify-center">
-              <img src={Design} alt="" className=" justify-center object-cover flex-1 rounded-xl shadow-gray-600 shadow-xl" width={500} height={500}/> 
+              <img src={Design} alt="" className=" justify-center object-contain flex-1 rounded-xl shadow-gray-600 shadow-xl w-auto"/> 
               </div>        
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-400">Beatiful Designs</h3>
               <p className="py-2 text-gray-200">
@@ -96,7 +96,7 @@ function App() {
             {/*Cards-2*/}
             <div className="text-center overflow-hidden shadow-gray-900 shadow-2xl justify-center p-10 my-10 rounded-md h-fit">
               <div className="flex justify-center">
-              <img src={Collab} alt="" className=" justify-center object-cover flex-1 rounded-xl shadow-gray-600 shadow-xl" width={400} height={400}/> 
+              <img src={Collab} alt="" className=" justify-center object-cover flex-1 rounded-xl shadow-gray-600 shadow-xl w-auto"/> 
               </div>        
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-400">Front-End</h3>
               <p className="py-2 text-gray-200">
@@ -107,24 +107,22 @@ function App() {
               </h4>
               <p className="py-1 text-gray-400">React</p>
               <p className="py-1 text-gray-400">React Native</p>
-              <p className="py-1 text-gray-400">Tailwind CSS</p>
             </div>
 
             {/*Cards-3*/}
             <div className="text-center overflow-hidden shadow-gray-900 shadow-2xl justify-center p-10 my-10 rounded-md h-fit">
               <div className="flex justify-center">
-              <img src={BackEnd} alt="" className=" justify-center object-cover flex-1 rounded-xl shadow-gray-600 shadow-xl" width={100} height={100}/> 
+              <img src={BackEnd} alt="" className=" justify-center object-cover flex-1 rounded-xl shadow-gray-600 shadow-xl w-auto"/> 
               </div>        
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-400">Back-End / Database</h3>
               <p className="py-2 text-gray-200">
-                Creating Servers, API's and Databases suited for your needs following core programming knowledge.
+                Creating API's suited for your needs following core programming knowledge.
               </p>
               <h4 className="text-red-600">
                 Back-End and Database tools
               </h4>
               <p className="py-1 text-gray-400">Node JS</p>
               <p className="py-1 text-gray-400">Express</p>
-              <p className="py-1 text-gray-400">Mongo DB</p>
             </div>
 
           </div>
@@ -167,7 +165,7 @@ function App() {
         <footer className="w-full flex justify-center items-center flex-row"> 
             <div className="my-20 flex-row flex items-center">
              <BsFillTelephoneOutboundFill className="mr-4 text-gray-400 text-2xl"/>
-              <a href="tel:+260-937-915-557" className="text-xl text-gray-400"> +26-097-391-557</a>
+              <a href="tel:+260-937-915-557" className="text-xl text-gray-400"> +260-973-915-557</a>
             </div>
         </footer>
       </main>

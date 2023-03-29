@@ -80,7 +80,7 @@ function App() {
             {/*Cards-1*/}
             <div className="text-center overflow-hidden shadow-gray-900 shadow-2xl justify-center p-10 my-10 rounded-md h-fit">
               <div className="flex justify-center">
-              <img src={Design} alt="" className=" justify-center object-contain flex-1 rounded-xl shadow-gray-600 shadow-xl w-auto"/> 
+              <img src={Design} alt="" className=" justify-center object-contain flex-1 rounded-xl shadow-gray-900 shadow-xl w-auto"/> 
               </div>        
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-400">Beatiful Designs</h3>
               <p className="py-2 text-gray-200">
@@ -96,7 +96,7 @@ function App() {
             {/*Cards-2*/}
             <div className="text-center overflow-hidden shadow-gray-900 shadow-2xl justify-center p-10 my-10 rounded-md h-fit">
               <div className="flex justify-center">
-              <img src={Collab} alt="" className=" justify-center object-cover flex-1 rounded-xl shadow-gray-600 shadow-xl w-auto"/> 
+              <img src={Collab} alt="" className=" justify-center object-cover flex-1 rounded-xl shadow-gray-900 shadow-xl w-auto"/> 
               </div>        
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-400">Front-End</h3>
               <p className="py-2 text-gray-200">
@@ -112,7 +112,7 @@ function App() {
             {/*Cards-3*/}
             <div className="text-center overflow-hidden shadow-gray-900 shadow-2xl justify-center p-10 my-10 rounded-md h-fit">
               <div className="flex justify-center">
-              <img src={BackEnd} alt="" className=" justify-center object-cover flex-1 rounded-xl shadow-gray-600 shadow-xl w-auto"/> 
+              <img src={BackEnd} alt="" className=" justify-center object-cover flex-1 rounded-xl shadow-gray-900 shadow-xl w-auto"/> 
               </div>        
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-400">Back-End / Database</h3>
               <p className="py-2 text-gray-200">

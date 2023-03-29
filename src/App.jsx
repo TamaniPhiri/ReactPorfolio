@@ -32,7 +32,7 @@ function App() {
           <nav className="py-10 mb-4 flex justify-between">
             <a href="#" className="text-xl text-gray-200 hover:-translate-y-1 ">Tamani</a>
             <ul className="flex items-center">
-              <li className="bg-red-600 text-white px-4 py-2 border-none rounded-xl ml-8 flex justify-center align-middle shadow-black shadow-md hover:scale-105">
+              <li className="bg-red-600 text-white px-4 py-2 border-none rounded-xl ml-8 flex justify-center align-middle shadow-black shadow-md hover:scale-105 animate-pulse transition-all ease-in-out">
                 <MdEmail className=" justify-center align-middle flex text-lg mr-2 mt-0.5"/>
                 <a href="mailto:tamanigabriel0@gmail.com" >Email</a>
               </li>

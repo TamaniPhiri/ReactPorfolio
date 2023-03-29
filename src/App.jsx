@@ -30,7 +30,7 @@ function App() {
           {/*NavBar*/}
 
           <nav className="py-10 mb-4 flex justify-between">
-            <a href="#" className="text-xl text-gray-200 hover:-translate-y-1 ">Tamani</a>
+            <a href="#" className="text-xl text-gray-200 hover:-translate-y-1 transition-all ease-in-out">Tamani</a>
             <ul className="flex items-center">
               <li className="bg-red-600 text-white px-4 py-2 border-none rounded-xl ml-8 flex justify-center align-middle shadow-black shadow-md hover:scale-105 animate-pulse transition-all ease-in-out">
                 <MdEmail className=" justify-center align-middle flex text-lg mr-2 mt-0.5"/>
@@ -49,9 +49,9 @@ function App() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-400">
-            <a href="https://github.com/TamaniPhiri" className="hover:scale-110 transition-all ease-in-out"><BsGithub/></a>
-            <a href="https://linkedin.com/in/tamani-phiri-389b16256/" className="hover:scale-110 transition-all ease-in-out"><BsLinkedin/></a>
-            <a href="tel:+260-973-915-557"><BsFillTelephoneOutboundFill className="hover:scale-110 transition-all ease-in-out"/></a>
+            <a href="https://github.com/TamaniPhiri" className="hover:scale-110 transition-all ease-in-out animate-bounce"><BsGithub/></a>
+            <a href="https://linkedin.com/in/tamani-phiri-389b16256/" className="hover:scale-110 transition-all ease-in-out animate-spin"><BsLinkedin/></a>
+            <a href="tel:+260-973-915-557"><BsFillTelephoneOutboundFill className="hover:scale-110 transition-all ease-in-out animate-bounce"/></a>
           </div>
           <div className="hover:scale-110  ease-in-out transition-all relative bg-gradient-to-b from-red-600 justify-center rounded-full w-80 h-80 mt-20 mb-10 mx-auto overflow-hidden shadow-2xl shadow-gray-900">
             <img src={Troi} alt="#" className=" object-cover "/>
@@ -78,7 +78,7 @@ function App() {
           <div className="lg:flex gap-10 flex-1">
 
             {/*Cards-1*/}
-            <div className="text-center overflow-hidden shadow-gray-900 shadow-2xl justify-center p-10 my-10 rounded-md h-fit">
+            <div className="text-center overflow-hidden shadow-gray-900 shadow-2xl justify-center p-10 my-10 rounded-md h-fit hover:-translate-y-10 transition-all ease-in-out">
               <div className="flex justify-center">
               <img src={Design} alt="" className=" justify-center object-contain flex-1 rounded-xl shadow-gray-900 shadow-xl w-auto"/> 
               </div>        
@@ -94,7 +94,7 @@ function App() {
             </div>
 
             {/*Cards-2*/}
-            <div className="text-center overflow-hidden shadow-gray-900 shadow-2xl justify-center p-10 my-10 rounded-md h-fit">
+            <div className="text-center overflow-hidden shadow-gray-900 shadow-2xl justify-center p-10 my-10 rounded-md h-fit hover:-translate-y-10 transition-all ease-in-out">
               <div className="flex justify-center">
               <img src={Collab} alt="" className=" justify-center object-cover flex-1 rounded-xl shadow-gray-900 shadow-xl w-auto"/> 
               </div>        
@@ -110,7 +110,7 @@ function App() {
             </div>
 
             {/*Cards-3*/}
-            <div className="text-center overflow-hidden shadow-gray-900 shadow-2xl justify-center p-10 my-10 rounded-md h-fit">
+            <div className="text-center overflow-hidden shadow-gray-900 shadow-2xl justify-center p-10 my-10 rounded-md h-fit hover:-translate-y-10 transition-all ease-in-out">
               <div className="flex justify-center">
               <img src={BackEnd} alt="" className=" justify-center object-cover flex-1 rounded-xl shadow-gray-900 shadow-xl w-auto"/> 
               </div>        
@@ -146,26 +146,26 @@ function App() {
           <div className="flex flex-col gap-10 lg:flex-wrap lg:flex-row" layout="resposive">
             <a href="https://www.figma.com/file/sUCvlw8K1r3NNc3Jk6seIG/Untitled?node-id=0%3A1&t=2AVvQODebM8i79x5-0" className="basis-1/2 flex-1 mb-10">
               <h3 className="text-2xl py-1 text-gray-400 mb-2">Gym UI</h3>
-              <img src={fig} alt="" className="rounded-lg object-cover" />
+              <img src={fig} alt="" className="rounded-lg object-cover hover:scale-95 transition-all ease-in-out" />
             </a>
             <a href="https://api.jsonbin.io/v3/b/63d8cb5bc0e7653a0569c4c6" className="basis-1/2 flex-1 mb-10">
               <h3 className="text-2xl py-1 text-gray-400 mb-2">Rest API</h3>
-              <img src={Api} alt="" className="rounded-lg object-cover" />
+              <img src={Api} alt="" className="rounded-lg object-cover hover:scale-95 transition-all ease-in-out" />
             </a>
             <a href="http://tamanifolio.vercel.app" className="basis-1/2 flex-1 mb-10">
               <h3 className="text-2xl py-1 text-gray-400 mb-2">Next Portfolio</h3>
-              <img src={port1} alt="" className="rounded-lg object-cover" />
+              <img src={port1} alt="" className="rounded-lg object-cover hover:scale-95 transition-all ease-in-out" />
             </a>
             <a href="https://troi-mac-web.vercel.app" className="basis-1/2 flex-1 mb-10">
               <h3 className="text-2xl py-1 text-gray-400 mb-2">Dummy Landing Page</h3>
-              <img src={TroiMac} alt="" className="rounded-lg object-cover" />
+              <img src={TroiMac} alt="" className="rounded-lg object-cover hover:scale-95 transition-all ease-in-out" />
             </a>
           </div>
         </section>
         <footer className="w-full flex justify-center items-center flex-row"> 
             <div className="my-20 flex-row flex items-center">
              <BsFillTelephoneOutboundFill className="mr-4 text-gray-400 text-2xl"/>
-              <a href="tel:+260-937-915-557" className="text-xl text-gray-400"> +260-973-915-557</a>
+              <a href="tel:+260-937-915-557" className="text-xl text-gray-400 hover:scale-105 transition-all ease-in-out"> +260-973-915-557</a>
             </div>
         </footer>
       </main>

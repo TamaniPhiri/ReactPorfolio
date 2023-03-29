@@ -1,5 +1,3 @@
-import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import {BsGithub, BsLinkedin,BsFillTelephoneOutboundFill} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
@@ -14,11 +12,10 @@ import TroiMac from '../public/TroiMac.png'
 
 
 function App() {
-  const [darkMode, setDarkMode]=useState(false);
 
 
   return (
-    <div className={darkMode ? "dark": ""}>
+    <div>
       <head>
         <title>Tamani Phiri</title>
         <link rel="icon" href="/favicon.ico/"/>
@@ -27,7 +24,7 @@ function App() {
 
       {/*Main Section*/}
 
-      <main className="px-10 md:px-20 lg:px-40 bg-white  dark:bg-slate-800">
+      <main className="px-10 md:px-20 lg:px-40 bg-slate-800">
         <section className="min-h-screen">
 
           {/*NavBar*/}

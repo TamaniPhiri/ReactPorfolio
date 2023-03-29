@@ -49,11 +49,11 @@ function App() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-400">
-            <a href="https://github.com/TamaniPhiri" className="hover:scale-110"><BsGithub/></a>
-            <a href="https://linkedin.com/in/tamani-phiri-389b16256/" className="hover:scale-110"><BsLinkedin/></a>
-            <a href="tel:+26-097-391-557"><BsFillTelephoneOutboundFill className="hover:scale-110"/></a>
+            <a href="https://github.com/TamaniPhiri" className="hover:scale-110 transition-all ease-in-out"><BsGithub/></a>
+            <a href="https://linkedin.com/in/tamani-phiri-389b16256/" className="hover:scale-110 transition-all ease-in-out"><BsLinkedin/></a>
+            <a href="tel:+260-973-915-557"><BsFillTelephoneOutboundFill className="hover:scale-110 transition-all ease-in-out"/></a>
           </div>
-          <div className="hover:scale-110 relative bg-gradient-to-b from-red-600 justify-center rounded-full w-80 h-80 mt-20 mb-10 mx-auto overflow-hidden shadow-2xl shadow-gray-900">
+          <div className="hover:scale-110  ease-in-out transition-all relative bg-gradient-to-b from-red-600 justify-center rounded-full w-80 h-80 mt-20 mb-10 mx-auto overflow-hidden shadow-2xl shadow-gray-900">
             <img src={Troi} alt="#" className=" object-cover "/>
           </div>
         </section>

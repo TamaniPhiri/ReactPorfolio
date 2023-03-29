@@ -20,6 +20,7 @@ function App() {
         <title>Tamani Phiri</title>
         <link rel="icon" href="/favicon.ico/"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins"/>
+        <link rel="icon" href="/public/letter-t.png" />
       </head>
 
       {/*Main Section*/}

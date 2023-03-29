@@ -167,7 +167,7 @@ function App() {
         <footer className="w-full flex justify-center items-center flex-row"> 
             <div className="my-20 flex-row flex items-center">
              <BsFillTelephoneOutboundFill className="mr-4 text-gray-400 text-2xl"/>
-              <a href="tel:+26-097-391-557" className="text-xl text-gray-400"> +26-097-391-557</a>
+              <a href="tel:+260-937-915-557" className="text-xl text-gray-400"> +26-097-391-557</a>
             </div>
         </footer>
       </main>
